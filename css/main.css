@@ -1,39 +1,8 @@
-html {}
-body {margin: 0; min-height: 1000px; scroll-behavior: smooth;}
-
-header {}
-.header-section {}
-.primary-menu {display: flex; flex-direction: row; justify-content: space-between;}
-.primary-menu-item {display: flex; flex-basis: max-content;}
-.primary-menu-item a {margin: 10px 10px 10px 0; text-decoration: none; color: blue;} 
-.primary-menu-item a:hover {text-decoration: underline; color: darkblue;} 
-
-.bottom-blue {border-bottom: solid blue 2px;}
-.back-darkblue {background: darkblue;}
-.centered {width: 80%; margin: 0 auto;}
-
-.flex-row-space {display: flex; flex-direction: row; justify-content: space-between;}
-
-.header-description {display: flex; flex-direction: row;}
-.logo-con {display: flex; flex-grow:1;}
-.logo-img {width: 100%; object-fit: cover; max-width: 200px; overflow: hidden;}
-.desc-con {display: flex; flex-grow:1; flex-direction: column;}
-.desc-title {font-size: larger; font-weight: bold;}
-.desc-content {}
-.desc-over {display: flex; flex-grow:2;}
-
-.nav-menu {display: flex; flex-direction: row; justify-content: space-between;}
-.nav-menu-item {display: flex; flex-basis: max-content; flex-grow: 1; color: white; 
-  border-left: solid 1px blue; border-right: solid 1px blue; padding: 10px; 
-  text-decoration: none; justify-content: center;}
-.nav-menu-item a {}
-.nav-menu-item:hover {background: blue;}
-.nav-menu-item:not(:last-child) {border-right-width: 0;}
-
-main {}
-.main-section {}
-.slider {min-height: 500px;}
-
-
-footer {}
-.footer-section {}
+html {scroll-behavior: smooth;}
+body {margin: 0; min-height: 1000px;}
+.header {position: sticky; top: 0;}
+.header-section {margin: 0 auto; width: 80%; color: white; display: flex;}
+.header-logo {}
+.header-logo-title {}
+.header-logo-subtitle {}
+.header-menu {}
