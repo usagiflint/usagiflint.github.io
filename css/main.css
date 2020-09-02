@@ -1,4 +1,5 @@
 html {scroll-behavior: smooth;}
 body {margin: 0;}
-h3 {color: red;}
-p {color: blue;}
+header {}
+div.header-section {width: 80%; margin: 0 auto;}
+div.header-section-top {border-bottom: Solid 1px blue;}
