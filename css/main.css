@@ -3,7 +3,7 @@ body {margin: 0; min-height: 1000px;}
 
 .b-black {background: black;}
 .b-rail {background-image: url("https://sun9-22.userapi.com/tI1AXTwTwjOttu0s454M3N_ZD-wsdNadBKvzqw/uo2cIH9HZ4M.jpg");}
-.b-grad-wb {background: radial-gradient(white, black);}
+.b-grad-wb {background: radial-gradient(rgba(255, 255, 255, 0.5)), rgba(0, 0, 0, 0.5));}
 .s-white {color: white;}
 
 .h-head {}
