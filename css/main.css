@@ -14,8 +14,8 @@ header {}
 
 .flex-row-space {display: flex; flex-direction: row; justify-content: space-between;}
 
-.nav-menu {display: flex; flex-direction: row; justify-content: space-between;}
-.nav-menu-item {display: flex; flex-basis: max-content; color: white; border: solid 1px blue; padding: 10px;}
+.nav-menu {display: flex; flex-direction: row; justify-content: stretch;}
+.nav-menu-item {display: flex; flex-basis: max-content; color: white; border: solid 1px blue; padding: 10px; text-decoration: none;}
 .nav-menu-item:hover {background: blue;}
 .nav-menu-item:not(:last-child) {border-right-width: 0;}
 
