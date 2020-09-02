@@ -2,7 +2,7 @@ html {scroll-behavior: smooth;}
 body {margin: 0; min-height: 1000px;}
 header {}
 .back-rail {background: url("https://sun9-22.userapi.com/tI1AXTwTwjOttu0s454M3N_ZD-wsdNadBKvzqw/uo2cIH9HZ4M.jpg");}
-.back-grad-wb {min-height: 510px; background: radial-gradient(transparent 60%, #000) 60% calc(50% + 2em);}
+.back-grad-wb {min-height: 510px; background: radial-gradient(transparent 30%, #000) 30% calc(40% + 2em);}
 
 .centered {width: 75%; margin: 0 auto;}
 
