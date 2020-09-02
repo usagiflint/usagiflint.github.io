@@ -3,13 +3,14 @@ body {margin: 0; min-height: 1000px;}
 
 header {}
 .header-section {}
-.primary-menu {}
+.primary-menu {display: flex; flex-direction: row; justify-content: space-between; align-items: stretch;}
 .primary-menu-item {}
 .primary-menu-item a {margin: 10px; text-decoration: none; color: blue;} 
 .primary-menu-item a:hover {text-decoration: underline; color: darkblue;} 
 
 .bottom-blue {border-bottom: solid blue 2px;}
 .centered {width: 80%; margin: 0 auto;}
+
 .flex-row-space {display: flex; flex-direction: row; justify-content: space-between; align-items: stretch;}
 
 main {}
