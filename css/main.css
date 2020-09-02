@@ -14,6 +14,5 @@ header {}
 .primary-menu a:hover {text-decoration: underline; color: darkblue;}
 
 .nav-item {border: solid blue 1px;}
-.nav-item a {color: white; text-decoration: none;}
 .nav-item:not(:last-child) {border-right-width: 0;}
 .nav-item:hover {background: blue;}
