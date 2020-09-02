@@ -6,8 +6,11 @@ div.header-section-top {border-bottom: Solid 1px blue;}
 div.header-section-bottom {background: darkblue;}
 
 div.flex-row {display: flex; flex-direction: row; justify-content: space-between;}
+
 a {text-decoration: none; color: blue;}
 a:hover {text-decoration: underline; color: darkblue;}
 .primary-menu {}
 .social-menu {}
-a.nav-item {display: block; color: white; border: solid blue 1px;}
+
+.nav-item:not(:last-child) {color: white; border: solid blue 1px; border-right-width: 0;}
+.nav-item:hover {background: blue;}
