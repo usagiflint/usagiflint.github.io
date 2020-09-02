@@ -16,8 +16,8 @@ header {}
 
 .nav-menu {display: flex; flex-direction: row; justify-content: space-between;}
 .nav-menu-item {display: flex; flex-basis: max-content; flex-grow: 1; color: white; border: solid 1px blue; padding: 10px; 
-  text-decoration: none;}
-.nav-menu-item a {display: flex; align-items: center; justify-content: center;}
+  text-decoration: none; text-align: center;}
+.nav-menu-item a {}
 .nav-menu-item:hover {background: blue;}
 .nav-menu-item:not(:last-child) {border-right-width: 0;}
 
