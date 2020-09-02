@@ -16,6 +16,7 @@ header {}
 
 .header-description {display: flex; flex-direction: row;}
 .logo-con {display: flex; flex-grow:1;}
+.logo-img {width: 100%; object-fit: cover;}
 .desc-con {display: flex; flex-grow:1; flex-direction: column;}
 .desc-title {}
 .desc-content {}
