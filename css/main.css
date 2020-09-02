@@ -6,7 +6,7 @@ header {}
 
 .header-section-top {border-bottom: Solid 1px blue; width: 100%;}
 .header-section-bottom {background: darkblue; width: 100%;}
-.header-nav {display: flex; flex-direction: row; justify-content: stretch;}
+.header-nav {display: flex; flex-direction: row; justify-content: space-between;}
 
 .flex-row {display: flex; flex-direction: row; justify-content: space-between;}
 
