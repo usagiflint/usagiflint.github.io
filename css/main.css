@@ -16,3 +16,5 @@ header {color: white;}
 .h-container {}
 
 .card-section {margin-top: -50px; border-radius: 50px 50px 0 0; min-height: 200px;}
+
+.f-col {display: flex; flex-direction: column; justify-content: space-between;}
