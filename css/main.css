@@ -2,4 +2,4 @@ html {scroll-behavior: smooth;}
 body {margin: 0; min-height: 1000px;}
 header {background-image: url("https://sun9-22.userapi.com/tI1AXTwTwjOttu0s454M3N_ZD-wsdNadBKvzqw/uo2cIH9HZ4M.jpg");}
 
-.b-grad-wb {background: radial-gradient(black, rgba(255, 255, 255, 0));}
+.b-grad-wb {min-height: 500px; background: radial-gradient(black, rgba(255, 255, 255, 0));}
