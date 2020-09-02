@@ -23,7 +23,8 @@ header {}
 .desc-over {display: flex; flex-grow:2;}
 
 .nav-menu {display: flex; flex-direction: row; justify-content: space-between;}
-.nav-menu-item {display: flex; flex-basis: max-content; flex-grow: 1; color: white; border: solid 1px blue; padding: 10px; 
+.nav-menu-item {display: flex; flex-basis: max-content; flex-grow: 1; color: white; 
+  border-left: solid 1px blue; border-right: solid 1px blue; padding: 10px; 
   text-decoration: none; justify-content: center;}
 .nav-menu-item a {}
 .nav-menu-item:hover {background: blue;}
