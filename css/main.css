@@ -14,6 +14,13 @@ header {}
 
 .flex-row-space {display: flex; flex-direction: row; justify-content: space-between;}
 
+.header-description {display: flex; flex-direction: row;}
+.logo-con {display: flex; flex-grow:1;}
+.desc-con {display: flex; flex-grow:1; flex-direction: column;}
+.desc-title {}
+.desc-content {}
+.desc-over {display: flex; flex-grow:2;}
+
 .nav-menu {display: flex; flex-direction: row; justify-content: space-between;}
 .nav-menu-item {display: flex; flex-basis: max-content; flex-grow: 1; color: white; border: solid 1px blue; padding: 10px; 
   text-decoration: none; justify-content: center;}
