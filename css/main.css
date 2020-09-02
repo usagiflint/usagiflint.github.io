@@ -16,10 +16,10 @@ header {}
 
 .header-description {display: flex; flex-direction: row;}
 .logo-con {display: flex; flex-grow:1;}
-.logo-img {width: 100%; object-fit: cover; max-height: 100px;}
+.logo-img {width: 100%; object-fit: cover; max-height: 100px; max-width: 150px;}
 .desc-con {display: flex; flex-grow:1; flex-direction: column;}
-.desc-title {}
-.desc-content {}
+.desc-title {font-size: large-xx;}
+.desc-content {font-size: larger;}
 .desc-over {display: flex; flex-grow:2;}
 
 .nav-menu {display: flex; flex-direction: row; justify-content: space-between;}
