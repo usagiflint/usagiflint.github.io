@@ -1,10 +1,12 @@
-html {scroll-behavior: smooth;}
+html {scroll-behavior: auto;}
 body {margin: 0; min-height: 1000px;}
-.header {position: sticky; top: 0;}
-.header-section {margin: 0 auto; width: 80%; color: white; display: flex;}
-.header-logo {}
-.header-logo-title {}
-.header-logo-subtitle {}
-.header-menu {}
 
-.tablet {min-height: 500px; background: black;}
+.b-black {background: black;}
+.b-rail {background: url("https://sun9-22.userapi.com/tI1AXTwTwjOttu0s454M3N_ZD-wsdNadBKvzqw/uo2cIH9HZ4M.jpg");}
+
+.s-white {color: white;}
+
+.h-head {}
+.h-block {min-height: 400px;}
+
+.centered {width: 80%; margin: 0 auto;}
