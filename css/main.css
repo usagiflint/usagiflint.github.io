@@ -10,11 +10,11 @@ header {}
 
 .flex-row {display: flex; flex-direction: row; justify-content: space-between;}
 
-.primary-menu a {text-decoration: none; color: blue; padding: 5px;}
+.primary-menu a {text-decoration: none; color: blue; margin: 5px;}
 .primary-menu a:hover {text-decoration: underline; color: darkblue;}
 
-.nav-item {border: solid blue 1px;}
-.nav-item a {color: white; text-decoration: none; padding: 5px;}
-.nav-item a:hover {}
+.nav-item {border: solid blue 1px; color: white; text-decoration: none; }
+.nav-item a {margin: 5px;}
+
 .nav-item:not(:last-child) {border-right-width: 0;}
 .nav-item:hover {background: blue;}
