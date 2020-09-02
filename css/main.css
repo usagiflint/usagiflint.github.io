@@ -30,7 +30,9 @@ header {}
 .nav-menu-item:not(:last-child) {border-right-width: 0;}
 
 main {}
-
+.main-section {}
+.slider {min-height: 500px;}
 
 
 footer {}
+.footer-section {}
