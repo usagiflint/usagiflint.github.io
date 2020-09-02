@@ -18,8 +18,8 @@ header {}
 .logo-con {display: flex; flex-grow:1;}
 .logo-img {width: 100%; object-fit: cover; max-width: 150px; overflow: hidden;}
 .desc-con {display: flex; flex-grow:1; flex-direction: column;}
-.desc-title {font-size: large-xx; font-weight: bold;}
-.desc-content {font-size: large;}
+.desc-title {font-size: larger; font-weight: bold;}
+.desc-content {}
 .desc-over {display: flex; flex-grow:2;}
 
 .nav-menu {display: flex; flex-direction: row; justify-content: space-between;}
