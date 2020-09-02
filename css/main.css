@@ -3,15 +3,21 @@ body {margin: 0; min-height: 1000px;}
 
 header {}
 .header-section {}
-.primary-menu {display: flex; flex-direction: row; justify-content: space-between; align-items: stretch;}
+.primary-menu {display: flex; flex-direction: row; justify-content: space-between;}
 .primary-menu-item {display: flex; flex-basis: max-content;}
 .primary-menu-item a {margin: 10px; text-decoration: none; color: blue;} 
 .primary-menu-item a:hover {text-decoration: underline; color: darkblue;} 
 
 .bottom-blue {border-bottom: solid blue 2px;}
+.back-darkblue {background: darkblue;}
 .centered {width: 80%; margin: 0 auto;}
 
-.flex-row-space {display: flex; flex-direction: row; justify-content: space-between; align-items: stretch;}
+.flex-row-space {display: flex; flex-direction: row; justify-content: space-between;}
+
+.nav-menu {display: flex; flex-direction: row; justify-content: space-between;}
+.nav-menu-item {display: flex; flex-basis: max-content; color: white; border: solid 1px blue; padding: 10px;}
+.nav-menu-item:hover {background: blue;}
+.nav-menu-item:not(:last-child) {border-right-width: 0;}
 
 main {}
 footer {}
