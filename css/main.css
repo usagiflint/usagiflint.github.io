@@ -13,6 +13,7 @@ header {}
 .primary-menu a {text-decoration: none; color: blue;}
 .primary-menu a:hover {text-decoration: underline; color: darkblue;}
 
-.nav-item {color: white; border: solid blue 1px;}
+.nav-item {border: solid blue 1px;}
+.nav-item a {color: white; text-decoration: none;}
 .nav-item:not(:last-child) {border-right-width: 0;}
 .nav-item:hover {background: blue;}
