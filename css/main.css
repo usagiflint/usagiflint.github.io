@@ -1,15 +1,5 @@
-html {scroll-behavior: auto;}
-body {margin: 0; min-height: 1000px;}
+html {}
+body {margin: 0;}
+header {background-image: url("https://sun9-22.userapi.com/tI1AXTwTwjOttu0s454M3N_ZD-wsdNadBKvzqw/uo2cIH9HZ4M.jpg");}
 
-.b-black {background: black;}
-.b-rail {background-image: url("https://sun9-22.userapi.com/tI1AXTwTwjOttu0s454M3N_ZD-wsdNadBKvzqw/uo2cIH9HZ4M.jpg");}
-.b-grad-wb {background: radial-gradient(rgba(255, 255, 255, 0.5)), rgba(0, 0, 0, 0.5));}
-.s-white {color: white;}
-
-.h-head {}
-.h-block {min-height: 600px;}
-
-.centered {width: 80%; margin: 0 auto;}
-
-.f-row {display: flex; flex-direction: row;}
-.f-col {display: flex; flex-direction: column;}
+.b-grad-wb {background: radial-gradient(black, rgba(255, 255, 255, 0));}
