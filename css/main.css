@@ -6,3 +6,5 @@ body {margin: 0; min-height: 1000px;}
 .header-logo-title {}
 .header-logo-subtitle {}
 .header-menu {}
+
+.tablet {min-height: 500px; background: black;}
