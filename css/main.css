@@ -2,5 +2,5 @@ html {scroll-behavior: smooth;}
 body {margin: 0; min-height: 1000px;}
 header {}
 .back-rail {background-image: url("https://sun9-22.userapi.com/tI1AXTwTwjOttu0s454M3N_ZD-wsdNadBKvzqw/uo2cIH9HZ4M.jpg");}
-.back-grad-wb {min-height: 500px; background: radial-gradient(rgba(255, 255, 255, 0)), black;}
-.back-rad {border-radius: 10px 10px 10px 10px; min-height: 100px;}
+.back-grad-wb {min-height: 500px; background: radial-gradient(rgba(255,255,255,0)), black;}
+.back-rad {border-radius: 10px 10px 10px 10px; min-height: 100px; background: white;}
