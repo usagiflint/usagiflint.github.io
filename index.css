@@ -1,19 +1,19 @@
-html {}
-body {}
+html {scroll-behavior: smooth;}
+body {min-height: 1000px;}
 
-.page {margin: 0;}
+.page {margin: 0; text-decoration: none;}
 .page__container {}
 .page__panel {margin: 0 auto; width: 70%;}
-.page__header {}
+.page__header {background: black; color: white; user-select: none;}
 .page__content {}
 .page__footer {}
 .page__row {display: flex; flex-direction: row;}
 .page__row_space_between {display: flex; flex-direction: row; justify-content: space-between;}
 
-.logo {}
+.logo {text-decoration: none;}
 .logo__title {}
 
-.menu {}
+.menu {text-decoration: none;}
 .menu__item {}
 .menu__button {}
 .menu__button_flat_red {}
