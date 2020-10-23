@@ -4,46 +4,48 @@
     <title>usagiflint</title>
     <style>
       .page {margin: 0; min-height: 700px;}
-      .page__line {}
       .page__header {position: sticky; top: 0;}
-      .page__row {display: flex; flex-direction: row;}
-      .page__row_space_between {display: flex; flex-direction: row; justify-content: space-between;}
+      
+      .header {color: white; text-decoration: none;}
+      .header__logo {margin: 0 0 0 3rem;}
+      .header__menu {}
+      
+      .logo {}
+      .logo__title {color: white; text-decoration: none; font-size: 1.2rem; margin: 0.5rem 0 0.5rem 0;}
+      .logo__title:hover {color: lightgray;}
+      
+      .menu {}
+      .menu__item {color: white; text-decoration: none; font-size: 1.2rem; margin: 0.5rem 0.5rem 0.5rem 0.5rem;}
+      .menu__item:hover {color: #24890d;}
+      .menu__button {color: white; text-decoration: none; background: green; font-size: 1.2rem; margin: 0.5rem 0 0.5rem 0.5rem;}
+      .menu__button:hover {background: #24890d;}
+      
+      .page__container {}
       .page__nav {}
+     
       .page__main {}
       .page__footer {}
       
-      .header {color: white; transition: 6s; background: black;}
-      .header__logo {margin-left: 3rem;}
-      .header__menu {}
-      .header__item {text-decoration: none; color: white; font-size: 1.2rem; margin: 0.5rem 0 0.5rem 1rem;}
-      .header__item:hover {color: #24890d;}
-      .header__button {background: green;}
-      .header__button:hover {background: #24890d;}
-      
-      .logo {}
-      .logo__title {text-decoration: none; color: white; font-size: 1.2rem; margin: 0.5rem 1rem 0.5rem 0;}
+      .flex__row {display: flex; flex-direction: row;}
+      .flex__row_sb {display: flex; flex-direction: row; justify-content: space-between;}
     </style>
   </head>
   <body class="page">
-    <div class="page__line">
-      <div class="page__header header">
-        <div class="page__row_space_between">
-          <div class="header__logo">
-            <a class="logo__title" href="/">usagiflint</a>
-          </div>
-          <div class="header__menu">
-            <a class="header__item" href="/">about</a>
-            <a class="header__item header__button" href="/">ru</a>
-          </div>
-        </div>
+    <div class="page__header flex__row_sb">
+      <div class="header__logo">
+        <a class="logo__title" href="/">usagiflint</a>
+      </div>
+      <div class="header__menu">
+        <a class="menu__item" href="/">about</a>
+        <a class="menu__button" href="/">ru</a>
       </div>
     </div>
-    <div class="page__line page__row">
+    <div class="page__container flex__row">
       <div class="page__nav">page__nav</div>
       <div class="page__main">page__main</div>
     </div>
-    <div class="page__line">
-      <div class="page__footer">page__footer</div>
+    <div class="page__footer">
+      <div class=""></div>
     </div>
   </body>
 </html>
