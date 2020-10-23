@@ -1,62 +1,49 @@
-<DOCTYPE html>
-<html>
-<head>
-  <title>usagiflint - переводы с японского языка</title>
-  <style>
-    .page {margin: 0; min-height: 700px;}
-    .page__line {}
-    .page__header {}
-    .page__nav {padding: 0.5rem 0 0 3rem; background: black; color: white; float: left; width: 30%;}
-    .page__wrap {margin: 0 auto; width: 70%;}
-    .page__right {width: 70%;}
-    
-    .header__container {position: sticky; top: 0;}
-    .header {background: black; color: white;}
-    .header__logo {color: white; font-size: 1.2rem; padding: 0.7rem 0 0.7rem 3rem; text-decoration: none;}
-    .header__logo:hover {background: black;}
-    .header__menu {color: white;}
-    .header__item {color: white; text-decoration: none; padding: 0.7rem 1rem 0.7rem 1rem;}
-    .header__item:hover {background: #41a62a;}
-    .flex__row {display: flex; flex-direction: row; justify-content: space-between;}
-    .menu {}
-    .menu__button_green {background: green;}
-    
-    .nav__link {color: white; text-decoration: none;}
-    .nav__link:hover {color: #41a62a;}
-    .nav__text {color: lightgray;}
-  </style>
-</head>
-<body class="page">
-  <div class="page__line header__container">
-    <header class="page__header header flex__row">
-      <a class="header__logo logo" href="/">
-        <div class="logo__title">usagiflint</div>
-      </a>
-      <div class="header__menu menu flex__row">
-        <a class="menu__item header__item">
-          <div class="item__title" href="/">о нас</div>
-        </a>
-        <a class="menu__item header__item menu__button_green">
-          <div class="item__title" href="/">ru</div>
-        </a>
-      </div>
-    </header>
-  </div>
-  <div class="page__line">
-    <nav class="page__nav nav">
-      <div class="nav__item">
-        <span class="nav__text">usagiflint - открытая группа, занимающаяся переводами с японского языка, в основном, ранобе, манги и артбуков.</span>
-      </div>
-    </nav>
-    <div class="page__right">
-      <div class="page__wrap">
-        <main class="page__main">
-          <article class="article">
-            Здесь должен быть текст...
-          </article>
-        </main>
+<!DOCTYPE html>
+<html class="">
+  <head class="">
+    <title>usagiflint</title>
+    <style>
+      .page {margin: 0; min-height: 700px;}
+      .page__line {}
+      .page__header {position: sticky; top: 0;}
+      .page__row {display: flex; flex-direction: row;}
+      .page__row_space_between {display: flex; flex-direction: row; justify-content: space-between;}
+      .page__nav {}
+      .page__main {}
+      .page__footer {}
+      
+      .header {color: white; transition: 6s;}
+      .header__logo {margin-left: 3rem;}
+      .header__menu {}
+      .header__item {text-decoration: none; color: white; font-size: 1.2rem; margin: 0.5rem 1rem 0.5rem 1rem;}
+      .header__item:hover {color: #24890d;}
+      .header__button {background: green;}
+      .header__button:hover {background: #24890d;}
+      
+      .logo {}
+      .logo__title {text-decoration: none; color: white; font-size: 1.2rem; margin: 0.5rem 1rem 0.5rem 1rem;}
+    </style>
+  </head>
+  <body class="page">
+    <div class="page__line">
+      <div class="page__header header">
+        <div class="page__row_space_between">
+          <div class="header__logo">
+            <a class="logo__title" href="/">usagiflint</a>
+          </div>
+          <div class="header__menu">
+            <a class="header__item" href="/">about</a>
+            <a class="header__item header__button" href="/">ru</a>
+          </div>
+        </div>
       </div>
     </div>
-  </div>
-</body>
+    <div class="page__line page__row">
+      <div class="page__nav">page__nav</div>
+      <div class="page__main">page__main</div>
+    </div>
+    <div class="page__line">
+      <div class="page__footer">page__footer</div>
+    </div>
+  </body>
 </html>
