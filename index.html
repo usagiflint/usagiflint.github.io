@@ -7,12 +7,14 @@
     .page__header {}
     .header__container {position: sticky; top: 0;}
     .header {background: black; color: white;}
-    .header__logo {color: white; font-size: 1.2rem; padding: 1rem;}
+    .header__logo {color: white; font-size: 1.2rem; padding: 0.7rem 0 0.7rem 3rem; text-decoration: none;}
     .header__logo:hover {background: black;}
     .header__menu {color: white;}
-    .header__item {color: white; text-decoration: none; padding: 1rem;}
+    .header__item {color: white; text-decoration: none; padding: 0.7rem 1rem 0.7rem 1rem;}
     .header__item:hover {background: #41a62a;}
     .flex__row {display: flex; flex-direction: row; justify-content: space-between;}
+    .menu {}
+    .menu__button_green {background: green;}
   </style>
 </head>
 <body class="page">
@@ -25,7 +27,7 @@
         <a class="menu__item header__item">
           <div class="item__title" href="/">о нас</div>
         </a>
-        <a class="menu__item header__item">
+        <a class="menu__item header__item menu__button_green">
           <div class="item__title" href="/">ru</div>
         </a>
       </div>
