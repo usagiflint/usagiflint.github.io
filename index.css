@@ -4,7 +4,7 @@ body {min-height: 1000px;}
 .page {margin: 0; text-decoration: none;}
 .page__container {}
 .page__panel {margin: 0 auto; width: 70%;}
-.page__header {background: black; color: white; user-select: none; min-height: 550px;}
+.page__header {background: black; color: white; user-select: none; min-height: 400px; transition: 1s;}
 .page__content {}
 .page__footer {}
 
@@ -13,7 +13,7 @@ body {min-height: 1000px;}
 .page__column {display: flex; flex-direction: row; flex-direction: column;}
 
 .logo {}
-.logo__title {text-decoration: none; font-size: 2rem; margin: 0.5rem; color: white;}
+.logo__title {text-decoration: none; font-size: 2rem; margin: 1rem 0 1rem 0; color: white;}
 .logo__title:hover {color: gray;}
 
 .menu {text-decoration: none;}
