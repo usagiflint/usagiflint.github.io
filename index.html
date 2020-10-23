@@ -1,89 +1,26 @@
 <DOCTYPE html>
 <html>
 <head>
-<title>Usagi Flint</title>
-  <link rel="stylesheet" type="text/css" href="index.css"/>
+  <style>
+    .page {margin: 0;}
+    .page__line {}
+    .page__header {position: sticky; top: 0; display: flex; flex-direction: row; justify-content: space-between;}
+    .header {background: black; color: white;}
+    .logo__title {color: white; text-decoration: none;}
+    .link {transition: color 2s;}
+    .link:hover {color: #41a62a;}
+  </style>
 </head>
 <body class="page">
-<header class="page__header">
-  <div class="page__container">
-    <div class="page__panel">
-      <div class="page__row_space_between">
-        <div class="logo">
-          <a class="logo__title" href="https://usagiflint.github.io/">Usagi Flint</a>
-        </div>
-        <div class="menu">
-          <a class="menu__item">Заказчикам</a>
-          <a class="menu__item menu__button_flat_red">Перейти в группу</a>
-        </div>
+  <div class="page__line">
+    <header class="page__header header">
+      <div class="header__logo logo">
+        <a class="logo__title" href="https://usagiflint.github.io/">usagiflint</a>
       </div>
-      <div class="page__column">
-        <div class="header__slogan">Мы переводим<br/>Вы читаете</div>
-        <div class="header__description">качественные переводы с японского языка</div>
+      <div class="header__menu menu">
+        <div class="menu__item" href="">о нас</div>
       </div>
-    </div>
+    </header>
   </div>
-</header>
-<div class="page__content">
-  <div class="page__container">
-    <div class="page__panel">
-      
-      <div id='showCD'></div><br>
-<input type="button" onclick="previous()" value="<<">
-<input type="button" onclick="next()" value=">>">
-
-<script>
-var i = 0, len;
-displayCD(i);
-
-function displayCD(i) {
-  var xmlhttp = new XMLHttpRequest();
-  xmlhttp.onreadystatechange = function() {
-    if (this.readyState == 4 && this.status == 200) {
-      myFunction(this, i);
-    }
-  };
-  xmlhttp.open("GET", "base.xml", true);
-  xmlhttp.send();
-}
-
-function myFunction(xml, i) {
-  var xmlDoc = xml.responseXML; 
-  x = xmlDoc.getElementsByTagName("CD");
-  len = x.length;
-  document.getElementById("showCD").innerHTML =
-  "Artist: " +
-  x[i].getElementsByTagName("ARTIST")[0].childNodes[0].nodeValue +
-  "<br>Title: " +
-  x[i].getElementsByTagName("TITLE")[0].childNodes[0].nodeValue +
-  "<br>Year: " + 
-  x[i].getElementsByTagName("YEAR")[0].childNodes[0].nodeValue;
-}
-
-function next() {
-  if (i < len-1) {
-    i++;
-    displayCD(i);
-  }
-}
-
-function previous() {
-  if (i > 0) {
-    i--;
-    displayCD(i);
-  }
-}
-</script>
-      
-    </div>
-  </div>
-</div>
-<footer class="page__footer">
-  <div class="page__container">
-    <div class="page__panel">
-      page__panel
-    </div>
-  </div>
-</footer>
 </body>
 </html>
