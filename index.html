@@ -1,11 +1,15 @@
 <DOCTYPE html>
 <html>
 <head>
-  <title>usagiflint - translate group</title>
+  <title>usagiflint - переводы с японского языка</title>
   <style>
     .page {margin: 0; min-height: 700px;}
     .page__line {}
     .page__header {}
+    .page__nav {padding: 0.5rem 0 0 3rem;}
+    .page__wrap {margin: 0 auto; width: 70%;}
+    .page__main {}
+    
     .header__container {position: sticky; top: 0;}
     .header {background: black; color: white;}
     .header__logo {color: white; font-size: 1.2rem; padding: 0.7rem 0 0.7rem 3rem; text-decoration: none;}
@@ -16,6 +20,10 @@
     .flex__row {display: flex; flex-direction: row; justify-content: space-between;}
     .menu {}
     .menu__button_green {background: green;}
+    
+    .nav__link {color: white; text-decoration: none;}
+    .nav__link:hover {color: #41a62a;}
+    .nav__text {color: lightgray;}
   </style>
 </head>
 <body class="page">
@@ -33,6 +41,22 @@
         </a>
       </div>
     </header>
+  </div>
+  <div class="page__line">
+    <nav class="page__nav nav">
+      <div class="nav__item">
+        <span class="nav__text">usagiflint - открытая группа, занимающаяся переводами с японского языка, в основном, ранобе, манги и артбуков.</span>
+      </div>
+    </nav>
+    <div class="page__main">
+      <div class="page__wrap">
+        <main class="page__main">
+          <article class="article">
+            Здесь должен быть текст...
+          </article>
+        </main>
+      </div>
+    </div>
   </div>
 </body>
 </html>
