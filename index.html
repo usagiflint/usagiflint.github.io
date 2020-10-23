@@ -10,7 +10,7 @@
     .header__logo {}
     .header__logo:hover {background: black;}
     .header__menu {color: white;}
-    .header__item {text-decoration: none;}
+    .header__item {color: white; text-decoration: none;}
     .header__item:hover {background: #41a62a;}
     .flex__row {display: flex; flex-direction: row; justify-content: space-between;}
   </style>
@@ -18,10 +18,10 @@
 <body class="page">
   <div class="page__line header__container">
     <header class="page__header header flex__row">
-      <a class="header__logo logo header__item">
+      <a class="header__logo logo" href="/">
         <div class="logo__title">usagiflint</div>
       </a>
-      <div class="header__menu menu">
+      <div class="header__menu menu flex__row">
         <a class="menu__item header__item">
           <div class="item__title" href="/">о нас</div>
         </a>
